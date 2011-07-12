@@ -12,10 +12,12 @@ avançando e obtendo as soluções proposta para cada problema. É bem legal e
 recomendo muito. 
 
 ##Exercícios Completos
-1, 2, 3 
+1, 2, 3, 5 e 6 
 
 ##Obs
 Os códigos dos três primeiros não estão aqui por que perdi. Mas assim que puder
 vou reescrever minhas soluções e coloco aqui.
 
+#OBS 2
+O objetivo é aprender e exercitar. Por isso, não copie. Tente fazer.
 
