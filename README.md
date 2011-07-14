@@ -12,7 +12,7 @@ avançando e obtendo as soluções proposta para cada problema. É bem legal e
 recomendo muito. 
 
 ##Exercícios Completos
-1, 2, 3, 5 e 6 
+1, 2, 3, 5, 6 e 7
 
 ##Obs
 Os códigos dos três primeiros não estão aqui por que perdi. Mas assim que puder
