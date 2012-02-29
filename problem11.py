@@ -23,10 +23,21 @@ dados = """08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08
 rows = []
 rows = dados.split("\n")
 matrix_string = [ row.split(" ") for row in rows]
-
 matriz = matrix(matrix_string)
-
-print matriz
-print matriz.transpose()
-
-
+val = []
+for i in range(19):
+    for j in range(19):
+        if j <=16: 
+            val.append(int(matriz[i,j]) * int(matriz[i,j+1]) * int(matriz[i,j+2]) * int(matriz[i,j+3]))
+            
+        if i <= 16:
+            val.append(int(matriz[i,j]) * int(matriz[i+1,j]) * int(matriz[i+2,j]) * int(matriz[i+3,j]))
+            
+        if  i <= 16 and j <= 16:
+            val.append(int(matriz[i,j]) * int(matriz[i+1,j+1]) * int(matriz[i+2, j+2]) * int(matriz[i+3, j+3]))
+            
+        if (j>=3 and i<=16):
+            val.append(int(matriz[i,j]) * int(matriz[i+1,j-1]) * int(matriz[i+2, j-2]) * int(matriz[i+3, j-3]))
+            
+print max(val)
+            
